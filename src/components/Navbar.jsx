@@ -1,4 +1,5 @@
 import { useState } from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -35,16 +36,16 @@ function Navbar() {
           </Link>
           <ul>
             <li>
-              <a href="#home">Home</a>
+              <AnchorLink href="#home">Home</AnchorLink>
             </li>
             <li>
-              <a href="#market">Market</a>
+              <AnchorLink href="#market">Market</AnchorLink>
             </li>
             <li>
-              <a href="#choose-us">Choose Us</a>
+              <AnchorLink href="#choose-us">Choose Us</AnchorLink>
             </li>
             <li>
-              <a href="#join">Join</a>
+              <AnchorLink href="#join">Join</AnchorLink>
             </li>
           </ul>
           <span>
