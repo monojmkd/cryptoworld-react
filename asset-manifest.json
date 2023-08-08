@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/cryptoworld-react/static/css/main.7bc2c86b.css",
-    "main.js": "/cryptoworld-react/static/js/main.3211a51c.js",
+    "main.css": "/cryptoworld-react/static/css/main.f38596b1.css",
+    "main.js": "/cryptoworld-react/static/js/main.fd0051f5.js",
     "static/media/choose-main.png": "/cryptoworld-react/static/media/choose-main.39852b7511b28d44406f.png",
     "static/media/bitcoin.png": "/cryptoworld-react/static/media/bitcoin.e146d46fb598ae0d8f43.png",
     "static/media/ethereum.png": "/cryptoworld-react/static/media/ethereum.c6cffe78f0c6abc85da9.png",
     "static/media/footer-bg.png": "/cryptoworld-react/static/media/footer-bg.e33c036e05f949cf81cb.png",
     "index.html": "/cryptoworld-react/index.html",
-    "main.7bc2c86b.css.map": "/cryptoworld-react/static/css/main.7bc2c86b.css.map",
-    "main.3211a51c.js.map": "/cryptoworld-react/static/js/main.3211a51c.js.map"
+    "main.f38596b1.css.map": "/cryptoworld-react/static/css/main.f38596b1.css.map",
+    "main.fd0051f5.js.map": "/cryptoworld-react/static/js/main.fd0051f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bc2c86b.css",
-    "static/js/main.3211a51c.js"
+    "static/css/main.f38596b1.css",
+    "static/js/main.fd0051f5.js"
   ]
 }
