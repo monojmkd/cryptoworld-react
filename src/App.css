@@ -894,7 +894,7 @@
       padding: 2rem 1rem;
     }
   }
-  .coin-content__text-side__24h, .coin-content__text-side__current, .coin-content__text-side__symbol {
+  .coin-content__text-side__24h, .coin-content__text-side__current, .coin-content__text-side__symbol, .coin-content__text-side__at {
     display: flex;
     font-size: 2rem;
     gap: 1rem;
@@ -905,7 +905,10 @@
     color: #f3f2f4;
     text-transform: uppercase;
   }
-  
+  .coin-content__text-side__at {
+    display: flex;
+    justify-content: space-around;
+  }
   .numb {
     display: flex;
     justify-content: space-between;

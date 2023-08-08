@@ -83,6 +83,22 @@ function Coin() {
                   }}
                 ></p>
               </div>
+              <div className="coin-content__text-side__at">
+              <div><span>ATH:</span>
+              <p className={"green-text"}>{coin.market_data
+                      ? "$" +
+                        numberWithCommas(
+                          coin.market_data.ath.usd.toFixed(2)
+                        )
+                      : null}</p></div>
+              <div><span>ATL:</span>
+              <p className={"green-text"}>{coin.market_data
+                      ? "$" +
+                        numberWithCommas(
+                          coin.market_data.atl.usd.toFixed(2)
+                        )
+                      : null}</p></div>
+              </div>
             </div>
           </div>
         </div>
