@@ -1,5 +1,5 @@
 import Footer from "../components/Footer";
-import Hero from "../components/Hero";
+import HomeText from "../components/HomeText";
 import Join from "../components/Join";
 import MarketUpdate from "../components/MarketUpdate";
 import WhyUs from "../components/WhyUs";
@@ -7,7 +7,7 @@ import WhyUs from "../components/WhyUs";
 function Home() {
   return (
     <>
-      <Hero />
+      <HomeText />
       <MarketUpdate />
       <WhyUs />
       <Join />

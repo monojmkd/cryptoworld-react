@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import Coin from "./pages/Coin";
 
 function App() {
+  
   return (
     <>
       <Navbar />

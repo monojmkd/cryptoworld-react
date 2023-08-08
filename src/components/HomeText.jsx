@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import Btc from "../images/hero/bitcoin.png";
 import Eth from "../images/hero/ethereum.png";
 import { Link } from "react-router-dom";
-
-function Hero() {
+import AnchorLink from "react-anchor-link-smooth-scroll";
+function HomeText() {
   const [data, setData] = useState([]);
   const [coinsLoad, setCoinsLoad] = useState(true);
 
@@ -41,16 +41,16 @@ function Hero() {
             <div className="hero-content__text">
               <img className="btc-float" src={Btc} alt="floating-el" />
               <h1>
-                Track and Trade
+                Track and Analyse
                 <br /> <span>Crypto currencies</span>
               </h1>
               <img className="eth-float" src={Eth} alt="floating-el" />
             </div>
 
             {/* mobile btn */}
-            <a className="mobile-btn-hero" href="#market">
+            <AnchorLink className="mobile-btn-hero" href="#market">
               See Prices <i className="fa-solid fa-angle-down"></i>
-            </a>
+            </AnchorLink>
             <div onLoad={() => setCoinsLoad(false)} className="coin-slider">
               {coinsLoad && <span className="loader"></span>}
               {data.map((item) => (
@@ -86,4 +86,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default HomeText;

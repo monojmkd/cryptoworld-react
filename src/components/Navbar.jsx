@@ -65,16 +65,16 @@ function Navbar() {
         <i onClick={openMobile} className="fa-solid fa-xmark close-mobile"></i>
         <ul>
           <li onClick={openMobile}>
-            <a href="#home">Home</a>
+            <AnchorLink href="#home">Home</AnchorLink>
           </li>
           <li onClick={openMobile}>
-            <a href="#market">Market</a>
+            <AnchorLink href="#market">Market</AnchorLink>
           </li>
           <li onClick={openMobile}>
-            <a href="#choose-us">Choose Us</a>
+            <AnchorLink href="#choose-us">Choose Us</AnchorLink>
           </li>
           <li onClick={openMobile}>
-            <a href="#join">Join</a>
+            <AnchorLink href="#join">Join</AnchorLink>
           </li>
         </ul>
       </div>
